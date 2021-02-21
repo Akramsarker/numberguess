@@ -1,0 +1,120 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(46, 121, 11);
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem
+}
+
+.text-center{
+    color: red;
+}
+
+.min-num{
+    color: rgb(140, 185, 34);
+}
+
+.max-num{
+    color: blue;
+}
+
+.input-box {
+    max-width: 600px;
+    margin: auto;
+    /* display: none; */
+}
+
+input[type=number] {
+    text-align: center;
+    color: rgb(25, 0, 255);
+    
+}
+
+input::placeholder {
+    color: rgb(58, 28, 28);
+}
+
+#guess-input {
+    height: 70px;
+    width: 100%;
+    border: none;
+    padding: 0px 20px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -6px -6px 5px rgba(255, 255, 255, 0.8);
+    background: var(--bg);
+    outline: none;
+    margin: 1.5rem 0;
+}
+
+.btn-center {
+    max-width: 138px;
+    margin: 2rem auto;
+}
+
+#guess-btn {
+    padding: 1rem 1.8rem;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    color: #fff;
+    background: rgb(107, 167, 12);
+    box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.3), inset 0 10px 10px rgba(255, 255, 255, 0.15), 0 15px 20px rgba(0, 0, 0, 0.2), 0 0 0 5px rgba(255, 255, 255, 0.15);
+    text-transform: uppercase;
+    transition: all .3s linear;
+    cursor: pointer;
+    outline: none;
+}
+
+#guess-btn:hover {
+    box-shadow: inset 0 -10px 10px rgba(0, 0, 0, 0.3), inset 0 10px 10px rgba(255, 255, 255, 0.15), 0 15px 20px rgba(0, 0, 0, 0.2), 0 0 0 7px rgba(255, 255, 255, 0.15);
+
+    background: rgb(102, 158, 11);
+}
+
+.loading-center {
+    text-align: center;
+    display: none;
+}
+
+/* img */
+.win-img
+{
+    background-color: black;
+    max-width: 480px;
+    margin: 0 auto;
+    display: none;
+}
+
+.lose-img {
+    background-color: black;
+    max-width: 480px;
+    margin: 0 auto;
+    display: none;
+}
+.lose-img .messages {
+    color: white;
+}
